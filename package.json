@@ -1,0 +1,11 @@
+{
+  "name": "jr-importados-cloudflare",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler pages deploy public --project-name=jr-importados",
+    "db:init:remote": "wrangler d1 execute jr-importados-db --remote --file=./schema.sql",
+    "dev": "wrangler pages dev public --compatibility-date=2026-10-15"
+  },
+  "devDependencies": { "wrangler": "^4.40.0" }
+}

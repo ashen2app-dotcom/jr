@@ -1,0 +1,22 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "jr-importados",
+  "compatibility_date": "2026-10-15",
+  "pages_build_output_dir": "./public",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "jr-importados-db",
+      "database_id": "e8dd9de1-00e8-41d7-b800-c6764adc3fef"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "MEDIA",
+      "bucket_name": "jr-importados-media"
+    }
+  ],
+  "vars": {
+    "R2_PUBLIC_URL": ""
+  }
+}
